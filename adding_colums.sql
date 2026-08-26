@@ -1,0 +1,6 @@
+-- SELECT * from users;
+-- ALTER TABLE users ADD COLUMN is_active BOOLEAN DEFAULT true;
+-- ALTER TABLE users DROP COLUMN is_active
+-- ALTER TABLE users MODIFY COLUMN email VARCHAR(100) AFTER id;
+ALTER TABLE users MODIFY COLUMN date_of_birth DATETIME FIRST;
+SELECT * FROM users;
