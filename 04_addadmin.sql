@@ -1,3 +1,4 @@
+USE table_for_user;
 CREATE TABLE admin_users (
 id INT PRIMARY KEY,
  name VARCHAR(100),
